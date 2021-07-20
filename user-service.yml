@@ -7,7 +7,7 @@ spring:
 
 token:
   expiration_time: 864000000 
-  secret: '{cipher}1f8dd4f33c179425040c23c850d8cd7b0a20bfa4ea0605cf3c8b113deca8e015'
+  secret: '{cipher}abee453d9f5b78eea46f78eba3bd3b94a8c619401e14595b123d45c4ae91fe45'
 
 gateway:
   ip: 10.204.136.204
