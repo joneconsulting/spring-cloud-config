@@ -10,7 +10,7 @@ token:
   secret: '{cipher}abee453d9f5b78eea46f78eba3bd3b94a8c619401e14595b123d45c4ae91fe45'
 
 gateway:
-  ip: 10.204.136.204
+  ip: 192.168.0.8
   
 order_service:
   url:  http://ORDER-SERVICE/order-service/%s/orders
