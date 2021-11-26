@@ -3,16 +3,11 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}0a77f319b228c8b3a419a72a64d208057cfabfa6810a91e47e866cea562d99ad'
+    password: '{cipher}AQCDpY2NNb5WDhEZRWb8hjcN2dzWMmg3/bNToZq6dZb9OiUJdTZEpSt4S/mvpVLoVYKL6+8FUaYbBGpCmiqc7kEDB2wPXFYgzSgFr2i/uO/luDKXjgQJoLYsaBpZnAIyatmI4rtns2Ow/ywM0EUsOYSb17K755pasHg44dbp40PkCTHlUotwyYYTU9u1JnL377y0A4xcWjDezYv8Z24iaZ6oNcPxlPNK/ZHTEbcRrpRhgiU9/C+E6Q5CtbmIGn7Z3vMKlO9Y3t2GdDG3kydYqXhPlUlC3RKYETT2TezeN2Li7+ny+jn8UEVnyQpQyfbyya7m00Jd3DFUZqcXfqff1Y6hDouy1VyroB/bq+xIvqx0Bib6JHbkY92Ag236qH3CmoE='
 
 token:
-  expiration_time: 864000000 
-  secret: '{cipher}abee453d9f5b78eea46f78eba3bd3b94a8c619401e14595b123d45c4ae91fe45'
+  expiration_time: 864000000
+  secret: '{cipher}AQApUl1P5naP3p4AyS4HKaThZdCfPHYJjTv/ikAefCeP5p86UjRDfjYL2VOwW7A75grQuEqw1NGTdANzESHTYZ5B4WKzZSMjsGe5eM7LZodJAZCY5QdMo/XgB8FvkMIcCmQRMqS1iszWAMAlidsKMF1LlCTImtpX9n7HTEkfY7yrxZdstVsF2lh0bU+CNhdpYRgfc+edBhy9v4jTGtDEWGpQlhugfaOg/16J4wVH28RS8NfaTMNElUCc25TuGAgOxsMX5BVSw3rteaFPjZiFxM7RxccPZWGbcV/siZFti+OiYtq5cgZsk9F1g52OT0DA70gPJ1TbmK2natXsm2XmiYdgUOoQ9ZJx4CScDrF1Dgd1b9ghr8ZzPqJA1ReJuLpH3rmabVFX9owz7EeapxUCektp'
 
 gateway:
-  ip: 192.168.0.8
-  
-order_service:
-  url:  http://ORDER-SERVICE/order-service/%s/orders
-  exception:
-    orders_is_empty: There is no item.
+  ip: 127.0.0.1
