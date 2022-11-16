@@ -7,7 +7,7 @@ spring:
 
 token:
   expiration_time: 864000000
-  secret: new_user_token_20220525
+  secret: 20221116_new_user_token_#1
 
 gateway:
   ip: 127.0.0.1
