@@ -6,7 +6,7 @@ spring:
     password: 
 
 token:
-  expiration_time: 564000000
-  secret: 20221215_LGCNS_#3
+  expiration_time: 464000000
+  secret: 20221215_LGCNS_#4
 gateway:
   ip: 127.0.0.1
