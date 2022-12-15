@@ -3,10 +3,10 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}db280fbeaaeafaf8a84e908f3dc4fa4012f5b0c985acc61b2369f79e90901482'
+    password: 
 
 token:
   expiration_time: 864000000
-  secret: 20221215_LGCNS_#1
+  secret: 20221215_LGCNS_#2
 gateway:
   ip: 127.0.0.1
