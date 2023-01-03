@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000000
-  secret: default_config_token_#7
+  secret: default_config_token_#8
 
 gateway:
   ip: 127.0.0.1
