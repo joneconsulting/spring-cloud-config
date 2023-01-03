@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000000
-  secret: 2023-01-04-default_config_token_#9
+  secret: 2023-01-04-default_config_token_#10
 
 gateway:
-  ip: 127.0.0.1
+  ip: localhost
