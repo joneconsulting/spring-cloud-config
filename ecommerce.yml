@@ -3,4 +3,4 @@ token:
   secret: 2023-03-16-default_config_token_#14
 
 gateway:
-  ip: localhost_6
+  ip: localhost_7
