@@ -6,7 +6,7 @@ spring:
     password: 
 
 token:
-  expiration_time: 564000006
-  secret: MY_SECRET_20230528_#6
+  expiration_time: 564000007
+  secret: MY_SECRET_20230528_#7
 gateway:
   ip: 127.0.0.1
