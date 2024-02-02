@@ -7,6 +7,6 @@ spring:
 
 token:
   expiration_time: 5640000010
-  secret: MY_SECRETKEY_20240202_FOR_SPRING_CLOUD_LOGIN
+  secret: YOUR_SECRETKEY_20240202_FOR_SPRING_CLOUD_LOGIN
 gateway:
   ip: 127.0.0.1
