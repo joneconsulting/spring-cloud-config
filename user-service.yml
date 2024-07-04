@@ -6,7 +6,7 @@ spring:
     password: 
 
 token:
-  expiration_time: 864000
+  expiration_time: 1234567890
   secret: '{cipher}AQAhz/SYJeyE1oywC2QflLqwXsfc56CwAqyCMvdgKwVUQaF9SuB7+Hb6Vidga5MjonvxavBhxDrWi/UQ8mc8ISkNKzp14YJT4EjutmPbO6vF8E6UcsoaaQ3/ZDvQuVLxnD5h05bgPZ4ZS1jM5dTAWOxk7sCSsgqx4M3MgWoa1/KgaTA4XrYcZ7EcMGJJavT0YIj/AnAJTQ1KKLSBlYja7MYX7imIXg6a++m8Z1l5NSCtZxtLjCObhjn/wEV83SyamJ7k1pNgnJofnPqF1Eb0T29e0Xf1+dKFfeY0BAfrDwyIySS/bW5p33Cqx8HMIuZKs/qXkJYde+PF+4YBMazKz2LqiuCbZGjzUG2kwz1TKnPyrHpHCGuFa/z6ESnsj7PjGX53drdgstoLXiBdpz6t1LnS9zdM24mB/yZhy1j8yI2kSQ=='
 gateway:
   ip: 127.0.0.1
