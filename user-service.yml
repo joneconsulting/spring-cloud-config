@@ -7,7 +7,7 @@ spring:
 
 token:
   expiration_time: 86400000
-  secret: 'user_service_yaml_secret_value_#1'
+  secret: 'newest_user_service_yaml_secret_value_#2_2025_03_10'
 gateway:
   ip: 127.0.0.1
 
