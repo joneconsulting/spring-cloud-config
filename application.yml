@@ -1,0 +1,6 @@
+token:
+  expiration_time: 864000000 
+  secret: application_yaml_secret_value_#1
+
+gateway:
+  ip: 172.18.0.1
