@@ -1,6 +1,6 @@
 token:
-  expiration_time: 864000000
-  secret: my_token_prod
+  expiration_time: 864000000 
+  secret: my-very-long-secret-key-1234567890123456-from-remote-repo-prod
 
 gateway:
   ip: 192.168.0.8

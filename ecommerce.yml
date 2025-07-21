@@ -1,6 +1,6 @@
 token:
-  expiration_time: 864300000
-  secret: 2023-03-16-default_config_token_#14
+  expiration_time: 864000000 
+  secret: my-very-long-secret-key-1234567890123456-from-remote-repo-ecommerce
 
 gateway:
   ip: localhost_9
