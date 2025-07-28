@@ -1,6 +1,6 @@
 token:
   expiration_time: 864000000 
-  secret: my-very-long-secret-key-1234567890123456-from-remote-repo-ecommerce
+  secret: newest-my-very-long-secret-key-1234567890123456-from-remote-repo-ecommerce
 
 gateway:
   ip: localhost_9
