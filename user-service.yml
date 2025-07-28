@@ -1,17 +1,6 @@
 spring:
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;
     username: sa
-    password: 
-
-token:
-  expiration_time: 86400000
-  secret: '{cipher}AYBDUeeQkjMd3E/OWUcx+/lTyteM6mYt3nd3wM1KO56WU4e+1Wfl9SESAHXScYJEWMQ7lR8uhPGk6GOFmWt/lcfe2bxHH6drGkSGAzTaVs79LDCajhOFQ0JxFpRNsswsA7JyrMVP4pV8w0ZFDQMNJ2DUd7+/UKyjoRyknwIQdVCXGkZsXxfbliKu5BOR2Z24rJTf9eTEucgDjyVBV6ESc13IK5RLjPyZKuXhdDXvqLV7tbB2VhJi522DnsD6wTIJEMDnJG2SGcTgJgs9020s+ccy27GxkHHyYdihVRzX7Y+edVn3vW5/ByMWwUw3Y1rviaH1mWOQ6+pDW3cdYNxEJ4G/9OeTs4zi3otFOqZiyCAlZsO1WHrFtG/wZgG2nCXPGK4+IeYy8sithv+ezyPzxHEX+fJelMswXEqIVmwBXJ2yJDIWFaGjP1d5+3VT2s3cAuGZ4j9qr1AeB9dORXR3o8TIWmR679XcdZlXJwEjU3mFVDAdr0GQ37HiR99kGCLQMHGQKGjzn5xb+YCcrUkCU3dXxq8KrI5dJqoVhzgT3E3FdHfjqzBhzaQ+cmHZ6mCUxHimloYXI74QOanNiDWcYICTmB9v22vVlhJrq4S3WTO+jhMNCuCUQ7z9ocBId4Vz66M='
-gateway:
-  ip: 127.0.0.1
-
-order-service:
-  url: http://ORDER-SERVICE/order-service/%s/orders
-  exception:
-    order-is-empty: User's order is empty.
+    password: sa_pw
