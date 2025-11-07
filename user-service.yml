@@ -13,4 +13,4 @@ order-service:
 
 logging:
   level:
-    root: DEBUG
+    root: INFO
