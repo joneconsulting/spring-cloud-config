@@ -10,3 +10,7 @@ order-service:
   url: http://order-service/order-service/%s/orders
   exception:
     order-is-empty: User's orders is empty.
+
+logging:
+  level:
+    root: INFO
