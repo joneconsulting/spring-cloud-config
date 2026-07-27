@@ -3,4 +3,4 @@ token:
   secret: newest-my-very-long-secret-key-1234567890123456-from-remote-repo-ecommerce
 
 gateway:
-  ip: localhost_9
+  ip: localhost_10_2026_07_26
